@@ -312,7 +312,7 @@ function featureSet5(){
 		displayMessage('missing method "addCard" in Deck');
 		return false;
 	}
-	var result = deck.addCard('K','Hearts');
+	var result = deck.addCard('Hearts','K');
 	if(result !== 1){
 		displayMessage('addCard("K","Hearts") should have returned a count of 1, but returned ' + result + ' instead');
 		return false;
